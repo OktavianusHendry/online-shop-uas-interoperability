@@ -32,13 +32,36 @@ class Toko{
             die('Error in query: '. mysqli_error());
         }
         $produkData = array();
-        while($produkRecord = mysqli_fetch_array($result)){
+        while($produkRecord = mysqli_fetch_assoc($result)){
             $produkData[] = $produkRecord;
         }
         header('Content-Type:application/json');
         echo json_encode($produkData);
     }
-
-
+    public function tambahProduk($produk){
+        $nama = $produk['nama'];
+        $harga = $produk['harga'];
+        $brand = $produk['brand'];
+        $deskripsi = $produk['deskripsi'];
+        $gambar = $produk['gambar']; // Add this line
+        $sqlQuery = "
+            INSERT INTO ".$this->tblProduk." 
+            SET nama='".$nama."', brand='".$brand."', deskripsi='".$deskripsi."', harga='".$harga."', gambar='".$gambar."'"; // Modify this line
+    
+        if(mysqli_query($this->dbConnect, $sqlQuery)){
+            $pesan = "Produk berhasil ditambahkan.";
+            $status = 1;
+        } else{
+            $pesan = "Gagal menambahkan produk.";
+            $status = 0;
+        }
+        $produkResponse = array(
+            'status' => $status,
+            'status_pesan' => $pesan
+        );
+        header('Content-Type:application/json');
+        echo json_encode($produkResponse);
+    }
+    
 }
 ?>
