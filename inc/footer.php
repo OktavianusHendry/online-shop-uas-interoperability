@@ -46,7 +46,7 @@ window.onclick = function(e) {
     </ul>
     </div>
     <div class="footer-content">
-      <a href="index.html"><img src="../images/logo-primary.png" class="nav-logo" alt="YAB!" width="80px"></a>
+      <a href="index.html"><img src="../images/logo.svg" class="nav-logo" alt="YAB!" width="80px"></a>
       <p>Jl. Gading Serpong Boulevard No.1, Curug Sangereng, Kelapa Dua, Tangerang, Banten, Indonesia.</p>
       <p>Find the simple & cool Japanese Clothes<br>
         <b>Only at YAB! - Simple & Fun</b>

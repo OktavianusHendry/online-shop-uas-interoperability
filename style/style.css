@@ -717,3 +717,58 @@ footer .footer-content ul li  a {
 .orderlist-card .card-text{
   margin-left: 1.5vw;
 }
+
+.add-product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-product .container {
+  max-width: 600px;
+}
+
+.add-product form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%; 
+}
+
+.add-product form label {
+  font-weight: bold;
+}
+
+.add-product form .form-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-product form .btn-primary {
+  padding: 10px 20px;
+  background-color: #a485cf;
+  border: none;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-product form .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.add-product form .mt-3 {
+  margin-top: 20px;
+}
+
+.add-product h1 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 2em;
+  margin: 1vh 0 7vh 0;
+}

@@ -3,10 +3,11 @@ header("Access-Control-Allow-Origin: *");
 include('inc/header.php');
 include('class/toko.php');
 ?>
-<div class="produk-kami">
 
+<section class="add-product">
 <div class="container">
     <form action="http://uas/produkApi/simpan.php" method="post" enctype='multipart/form-data'>
+        <h1>Tambah Produk</h1>
         <div class="mb-3">
             <label for="nama" class="form-label">Nama Produk</label>
             <input type="text" class="form-control" id="nama" name="nama" required>
@@ -32,6 +33,6 @@ include('class/toko.php');
         </div>
     </form>
 </div>
-</div>
+</section>
 
 <?php include('inc/footer.php'); ?>
