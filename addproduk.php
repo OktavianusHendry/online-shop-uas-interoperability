@@ -3,6 +3,7 @@ header("Access-Control-Allow-Origin: *");
 include('inc/header.php');
 include('class/toko.php');
 ?>
+<div class="produk-kami">
 
 <div class="container">
     <form action="http://uas/produkApi/simpan.php" method="post" enctype='multipart/form-data'>
@@ -30,6 +31,7 @@ include('class/toko.php');
             <button type="submit" class="btn btn-primary">Submit</button>
         </div>
     </form>
+</div>
 </div>
 
 <?php include('inc/footer.php'); ?>

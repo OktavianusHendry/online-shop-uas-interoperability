@@ -33,14 +33,16 @@
               </div>
             </li>
             <li class="nav-items"><a href="addproduk.php">Tambah Produk</a></li>
-            <li class="nav-items dropdown">
+            <li class="nav-items"><a href="displayData.php">Produk Kami</a></li>
+            <li class="nav-items"><a href="produkApi/getxml.php">Dapatkan XML Produk</a></li>
+            <!-- <li class="nav-items dropdown">
               <button type="button" class="dropbtn" onclick="dropdownFunction('myDropdown2')">Bantuan</button>
               <div class="dropdown-content" id="myDropdown2">
                 <a href="cara_pemesanan.php">Cara Pemesanan</a>
                 <a href="syarat_ketentuan.php">Syarat & Ketentuan</a>
                 <a href="pengembalian.php">Pengembalian</a>
               </div>
-            </li>
+            </li> -->
           </ul>
           <div class="nav-top-right">
             <a href="cart.php"><i class=" fa fa-shopping-cart" style="color: #4F4C4D; font-size:24px"></i></a>

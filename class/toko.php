@@ -62,6 +62,58 @@ class Toko{
         header('Content-Type:application/json');
         echo json_encode($produkResponse);
     }
-    
+    function createXMLfile($nilaArray){
+        $filePath = 'produk.xml';
+        $dom     = new DOMDocument('1.0', 'utf-8');
+        $root      = $dom->createElement('onlineGameShop');
+        for($i=0; $i<count($nilaArray); $i++){
+            $id        =  $nilaArray[$i]['id'];
+            $nama = htmlspecialchars($nilaArray[$i]['nama']);
+            $matakuliah    =  $nilaArray[$i]['brand'];
+            $nilai    =  $nilaArray[$i]['deskripsi'];
+            $harga = $nilaArray[$i]['harga'];
+            $gambar = $nilaArray[$i]['gambar']; 
+            $score = $dom->createElement('produk');
+            $score->setAttribute('id', $id);
+           
+            $nama     = $dom->createElement('nama', $nama);
+            $score->appendChild($nama);
+            $matakuliah     = $dom->createElement('brand', $matakuliah);
+            $score->appendChild($matakuliah);
+            $nilai     = $dom->createElement('deskripsi', $nilai);
+            $score->appendChild($nilai);
+            $harga = $dom->createElement('harga', $harga);
+            $score->appendChild($harga);
+            $gambar = $dom->createElement('gambar', $gambar);
+            $score->appendChild($gambar);
+
+           
+            $root->appendChild($score);
+        }
+        $dom->appendChild($root);
+        $dom->save($filePath);
+    }
+    public function getXml() {
+       
+        $sqlQuery = "select * from produk";
+
+        $result = mysqli_query($this->dbConnect, $sqlQuery);
+       
+        //var_dump($result);
+        if(!$result){
+            die('Error in query: '. mysqli_error());
+        }
+        $nialiArray = array();
+
+        while( $result_array  = mysqli_fetch_assoc($result) ) {
+             array_push($nialiArray, $result_array);
+        }
+            if(count($nialiArray)){
+                $this->createXMLfile($nialiArray);
+            }
+        /* free result set */
+        $result->free();
+       
+    }
 }
 ?>
