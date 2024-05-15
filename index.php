@@ -1,147 +1,92 @@
-<?php include ('inc/header.php'); ?>
-       <!-- Carousel Banner Starts -->
-       <header id="slideCarousel">
-         <div class="slide-image2" id="slide1">
-         </div>
-         <div class="slide-image2" id="slide2">
-         </div>
-         <div class="slide-image2" id="slide3">
-         </div>
-       </header>
-       <!-- Carousel Banner Ends -->
-      <section class="produk-kami" id="produk">
-        <h1>Produk Kami</h1>
-        <!-- T-Shirt Start -->
-        <div class="container">
-          <div class="card">
-            <img src="images/produk1.png" alt="barang" style="width:100%">
-            <div class="card-content">
-              <h4>Yab! Black Premium Japanese T-Shirt</h4>
-              <h5>Rp 100.000</h5>
-              <form method="POST" action="add_to_cart.php">
-                <input type="hidden" name="product_id" value="1">
-                <button type="submit" id="submit"><i class=" fa fa-cart-plus" style="color: #fcfcfc"></i>&nbsp; Beli</button>
-              </form>
-            </div>
-          </div>
+<?php
+    header("Access-Control-Allow-Origin: *");
+    include('inc/header.php');
+    // include('inc/nav.php');
+    include('class/toko.php');
+?>
 
-          <div class="card">
-            <img src="images/produk3.png" alt="barang" style="width:100%">
-            <div class="card-content">
-              <h4>Yab! Blue Premium Japanese T-Shirt</h4>
-              <h5>Rp 100.000</h5>
-              <form method="POST" action="add_to_cart.php">
-                <input type="hidden" name="product_id" value="3">
-                <button type="submit" id="submit"><i class=" fa fa-cart-plus" style="color: #fcfcfc"></i>&nbsp; Beli</button>
-              </form>
-            </div>
-          </div>
+<header id="slideCarousel">
+    <div class="slide-image2" id="slide1">
+    </div>
+    <div class="slide-image2" id="slide2">
+    </div>
+    <div class="slide-image2" id="slide3">
+    </div>
+</header>
+<section class="produk-kami" id="produk">
+    <h1>Produk Kami</h1>
 
-          <div class="card">
-            <img src="images/produk4.png" alt="barang" style="width:100%">
-            <div class="card-content">
-              <h4>Yab! Koi Premium Japanese T-Shirt</h4>
-              <h5>Rp 100.000</h5>
-              <form method="POST" action="add_to_cart.php">
-                <input type="hidden" name="product_id" value="4">
-                <button type="submit" id="submit"><i class=" fa fa-cart-plus" style="color: #fcfcfc"></i>&nbsp; Beli</button>
-              </form>
-            </div>
-          </div>
+    <?php
+        // $url = 'http://mahasiswa/nilai/getdata.php?id=1';
+        $url = 'http://uas/produkApi/getdata.php';
+        $client = curl_init($url);
+        curl_setopt($client, CURLOPT_RETURNTRANSFER, 1);
+        $response = curl_exec($client);
+        $result = json_decode($response);
 
-          <div class="card">
-            <img src="images/produk5.png" alt="barang" style="width:100%">
-            <div class="card-content">
-              <h4>Yab! Oni Premium Japanese T-Shirt</h4>
-              <h5>Rp 100.000</h5>
-              <form method="POST" action="add_to_cart.php">
-                <input type="hidden" name="product_id" value="5">
-                <button type="submit" id="submit"><i class=" fa fa-cart-plus" style="color: #fcfcfc"></i>&nbsp; Beli</button>
-              </form>
-            </div>
-          </div>
+        echo "<div class='container' id='produk'>";
+        $count = 0;
+        foreach ($result as $item) {
+            if($count % 5 == 0 && $count > 0) {
+                echo "</div><div class='container'>";
+            }
+            echo "<div class='card'>";
+            echo "<img src='produkApi/".$item->gambar."' alt='barang' style='width:100%'>";
+            echo "<div class='card-content'>";
+            echo "<h4>".$item->nama."</h4>";
+            echo "<h5>Rp ".$item->harga."</h5>";
+            echo "<form method='POST' action='add_to_cart.php'>";
+            echo "<input type='hidden' name='product_id' value='".$item->id."'>";
+            echo "<button type='submit' id='submit'><i class='fa fa-cart-plus' style='color: #fcfcfc'></i>  Beli</button>";
+            echo "</form>";
+            echo "</div>";
+            echo "</div>";
+            $count++;
+        }
+        echo "</div>";
 
-          <div class="card">
-            <img src="images/produk1.png" alt="barang" style="width:100%">
-            <div class="card-content">
-              <h4>Yab! Black Premium Japanese T-Shirt</h4>
-              <h5>Rp 100.000</h5>
-              <form method="POST" action="add_to_cart.php">
-                <input type="hidden" name="product_id" value="1">
-                <button type="submit" id="submit"><i class=" fa fa-cart-plus" style="color: #fcfcfc"></i>&nbsp; Beli</button>
-              </form>
-            </div>
-          </div>
-        </div>
-        <!-- T-Shirts End -->
-        <!-- Bags starts -->
-        <div class="container">
-          <div class="card">
-            <img src="images/produk2.png" alt="barang" style="width:100%">
-            <div class="card-content">
-              <h4>Yab! Black Premium Japanese Drawstring Bag</h4>
-              <h5>Rp 100.000</h5>
-              <form method="POST" action="add_to_cart.php">
-                <input type="hidden" name="product_id" value="2">
-                <button type="submit" id="submit"><i class=" fa fa-cart-plus" style="color: #fcfcfc"></i>&nbsp; Beli</button>
-              </form>
-            </div>
-          </div>
+    ?>
+    <h1>Produk Kami - XML</h1>
+    <?php
+    //$xmlurl = 'http://mahasiswa/nilai/getxml.php';
+    $xml_data = simplexml_load_file('http://uas/produkApi/produk.xml') or die("Error: Object Creation failure"); 
+    $count = 0;
 
-          <div class="card">
-            <img src="images/produk2.png" alt="barang" style="width:100%">
-            <div class="card-content">
-              <h4>Yab! Black Premium Japanese Drawstring Bag</h4>
-              <h5>Rp 100.000</h5>
-              <form method="POST" action="add_to_cart.php">
-                <input type="hidden" name="product_id" value="2">
-                <button type="submit" id="submit"><i class=" fa fa-cart-plus" style="color: #fcfcfc"></i>&nbsp; Beli</button>
-              </form>
-            </div>
-          </div>
-
-          <div class="card">
-            <img src="images/produk2.png" alt="barang" style="width:100%">
-            <div class="card-content">
-              <h4>Yab! Black Premium Japanese Drawstring Bag</h4>
-              <h5>Rp 100.000</h5>
-              <form method="POST" action="add_to_cart.php">
-                <input type="hidden" name="product_id" value="2">
-                <button type="submit" id="submit"><i class=" fa fa-cart-plus" style="color: #fcfcfc"></i>&nbsp; Beli</button>
-              </form>
-            </div>
-          </div>
-
-          <div class="card">
-            <img src="images/produk2.png" alt="barang" style="width:100%">
-            <div class="card-content">
-              <h4>Yab! Black Premium Japanese Drawstring Bag</h4>
-              <h5>Rp 100.000</h5>
-              <form method="POST" action="add_to_cart.php">
-                <input type="hidden" name="product_id" value="2">
-                <button type="submit" id="submit"><i class=" fa fa-cart-plus" style="color: #fcfcfc"></i>&nbsp; Beli</button>
-              </form>
-            </div>
-          </div>
-
-          <div class="card">
-            <img src="images/produk2.png" alt="barang" style="width:100%">
-            <div class="card-content">
-              <h4>Yab! Black Premium Japanese Drawstring Bag</h4>
-              <h5>Rp 100.000</h5>
-              <form method="POST" action="add_to_cart.php">
-                <input type="hidden" name="product_id" value="2">
-                <button type="submit" id="submit"><i class=" fa fa-cart-plus" style="color: #fcfcfc"></i>&nbsp; Beli</button>
-              </form>
-            </div>
-          </div>
-        </div>
-        <!-- Bags Ends -->
-     </section>
-<?php include ('inc/footer.php'); ?>
+    echo "<div class='container' id='produk'>";
+    foreach ($xml_data->children() as $data)
+    {
+        if($count % 5 == 0 && $count > 0) {
+            echo "</div><div class='container'>";
+        }
+        //display each sub element in xml file
+        // echo "ID : ", $data->id . "<br> ";
+        echo "<div class='card'>";
+        echo "<img src='produkApi/".$data->gambar."' alt='barang' style='width:100%'>";
+        echo "<div class='card-content'>";
+        echo "<h4>".$data->nama."</h4>";
+        echo "<h5>Rp ".$data->harga."</h5>";
+        echo "<form method='POST' action='add_to_cart.php'>";
+        echo "<input type='hidden' name='product_id' value='".$data->id."'>";
+        echo "<button type='submit' id='submit'><i class='fa fa-cart-plus' style='color: #fcfcfc'></i>  Beli</button>";
+        echo "</form>";
+        echo "</div>";
+        echo "</div>";
+        $count++;
+        // echo "Nama : ", $data->nama . "<br> ";
+        // echo "Brand : ", $data->brand . "<br> ";
+        // echo "Deskripsi : ", $data->deskripsi . "<br>";
+        // echo "Harga : ", $data->harga . "<br>";
+        // echo "Gambar : ", $data->gambar . "<br>";
+        // echo "------------------------------------";
+        // echo "<br>";
+    }
+    ?>
+    
+</section>
 
 
-       <script type="text/javascript">
+<?php include('inc/footer.php'); ?>
+<script type="text/javascript">
        $(document).ready(function(){
         var interval = window.setInterval(rotateSlides, 5000)
 
@@ -157,34 +102,4 @@
         }
 
       })
-       </script>
-
-       <script type="text/javascript">
-       var currentDropdown = null;
-
-       function dropdownFunction(dropdownId) {
-         var dropdown = document.getElementById(dropdownId);
-         if (currentDropdown && currentDropdown != dropdown) {
-           currentDropdown.classList.remove("show");
-         }
-         dropdown.classList.toggle("show");
-         currentDropdown = dropdown;
-       }
-
-       // Close the dropdown if the user clicks outside of it
-       window.onclick = function(e) {
-         if (!e.target.matches('.dropbtn')) {
-           var dropdowns = document.getElementsByClassName("dropdown-content");
-           for (var i = 0; i < dropdowns.length; i++) {
-             var dropdown = dropdowns[i];
-             if (dropdown.classList.contains('show')) {
-               dropdown.classList.remove('show');
-               currentDropdown = null;
-             }
-           }
-         }
-       }
-
-          </script>
-  </body>
-</html>
+</script>

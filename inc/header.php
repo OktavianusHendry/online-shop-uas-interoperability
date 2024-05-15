@@ -33,7 +33,7 @@
               </div>
             </li>
             <li class="nav-items"><a href="addproduk.php">Tambah Produk</a></li>
-            <li class="nav-items"><a href="displayData.php">Produk Kami</a></li>
+            <!-- <li class="nav-items"><a href="displayData.php">Produk Kami</a></li> -->
             <li class="nav-items"><a href="produkApi/getxml.php">Dapatkan XML Produk</a></li>
             <!-- <li class="nav-items dropdown">
               <button type="button" class="dropbtn" onclick="dropdownFunction('myDropdown2')">Bantuan</button>

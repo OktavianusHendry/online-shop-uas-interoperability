@@ -37,7 +37,7 @@
 <section class="carapemesanan">
     <h1>Cara Memesan</h1>
 
-    <p>Untuk berbelanja di YAB! sangat mudah. Kalian hanya perlu mengikuti langkah di bawah ini:</p>
+    <p>Untuk berbelanja di YGS! sangat mudah. Kalian hanya perlu mengikuti langkah di bawah ini:</p>
     <br>
 
     <ol>
