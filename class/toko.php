@@ -1,10 +1,9 @@
 <?php
 class Toko{
-    //tambah koneksi db
     private $host = 'localhost';
-    private $user = 'root';
-    private $pass = '';
-    private $database = "onlineshop";
+    private $user = 'dosa9773';
+    private $pass = 'wzg62paZxZ2eHzVX';
+    private $database = "dosa9773_kelompok1";
     private $tblProduk = 'produk';
     private $dbConnect = false;
 
@@ -42,11 +41,11 @@ class Toko{
         $nama = $produk['nama'];
         $harga = $produk['harga'];
         $brand = $produk['brand'];
-        $deskripsi = $produk['deskripsi'];
-        $gambar = $produk['gambar']; // Add this line
+        $seller = $produk['seller'];
+        $gambar = $produk['gambar']; 
         $sqlQuery = "
             INSERT INTO ".$this->tblProduk." 
-            SET nama='".$nama."', brand='".$brand."', deskripsi='".$deskripsi."', harga='".$harga."', gambar='".$gambar."'"; // Modify this line
+            SET nama='".$nama."', brand='".$brand."', seller='".$seller."', harga='".$harga."', gambar='".$gambar."'"; 
     
         if(mysqli_query($this->dbConnect, $sqlQuery)){
             $pesan = "Produk berhasil ditambahkan.";
@@ -62,33 +61,33 @@ class Toko{
         header('Content-Type:application/json');
         echo json_encode($produkResponse);
     }
-    function createXMLfile($nilaArray){
+    function createXMLfile($produkArray){
         $filePath = 'produk.xml';
         $dom     = new DOMDocument('1.0', 'utf-8');
         $root      = $dom->createElement('onlineGameShop');
-        for($i=0; $i<count($nilaArray); $i++){
-            $id        =  $nilaArray[$i]['id'];
-            $nama = htmlspecialchars($nilaArray[$i]['nama']);
-            $matakuliah    =  $nilaArray[$i]['brand'];
-            $nilai    =  $nilaArray[$i]['deskripsi'];
-            $harga = $nilaArray[$i]['harga'];
-            $gambar = $nilaArray[$i]['gambar']; 
-            $score = $dom->createElement('produk');
-            $score->setAttribute('id', $id);
+        for($i=0; $i<count($produkArray); $i++){
+            $id        =  $produkArray[$i]['id'];
+            $nama = htmlspecialchars($produkArray[$i]['nama']);
+            $brand    =  $produkArray[$i]['brand'];
+            $seller    =  $produkArray[$i]['seller'];
+            $harga = $produkArray[$i]['harga'];
+            $gambar = $produkArray[$i]['gambar']; 
+            $produk = $dom->createElement('produk');
+            $produk->setAttribute('id', $id);
            
             $nama     = $dom->createElement('nama', $nama);
-            $score->appendChild($nama);
-            $matakuliah     = $dom->createElement('brand', $matakuliah);
-            $score->appendChild($matakuliah);
-            $nilai     = $dom->createElement('deskripsi', $nilai);
-            $score->appendChild($nilai);
+            $produk->appendChild($nama);
+            $brand     = $dom->createElement('brand', $brand);
+            $produk->appendChild($brand);
+            $seller     = $dom->createElement('seller', $seller);
+            $produk->appendChild($seller);
             $harga = $dom->createElement('harga', $harga);
-            $score->appendChild($harga);
+            $produk->appendChild($harga);
             $gambar = $dom->createElement('gambar', $gambar);
-            $score->appendChild($gambar);
+            $produk->appendChild($gambar);
 
            
-            $root->appendChild($score);
+            $root->appendChild($produk);
         }
         $dom->appendChild($root);
         $dom->save($filePath);
@@ -99,7 +98,6 @@ class Toko{
 
         $result = mysqli_query($this->dbConnect, $sqlQuery);
        
-        //var_dump($result);
         if(!$result){
             die('Error in query: '. mysqli_error());
         }

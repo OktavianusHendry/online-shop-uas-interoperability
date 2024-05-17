@@ -1,7 +1,6 @@
 <?php
     header("Access-Control-Allow-Origin: *");
     include('inc/header.php');
-    // include('inc/nav.php');
     include('class/toko.php');
 ?>
 
@@ -17,8 +16,7 @@
     <h1>Produk Kami</h1>
 
     <?php
-        // $url = 'http://mahasiswa/nilai/getdata.php?id=1';
-        $url = 'http://uas/produkApi/getdata.php';
+        $url = 'https://kelompok1.doseninformatika.com/produkApi/getdata.php';
         $client = curl_init($url);
         curl_setopt($client, CURLOPT_RETURNTRANSFER, 1);
         $response = curl_exec($client);
@@ -33,9 +31,10 @@
             echo "<div class='card'>";
             echo "<img src='produkApi/".$item->gambar."' alt='barang' style='width:100%'>";
             echo "<div class='card-content'>";
-            echo "<h4>".$item->nama."</h4>";
+            echo "<h4>".$item->brand." - ".$item->nama."</h4>";
             echo "<h5>Rp ".$item->harga."</h5>";
-            echo "<form method='POST' action='add_to_cart.php'>";
+            echo "<h5>Seller: ".$item->seller."</h5>";
+            echo "<form method='POST' action=''>";
             echo "<input type='hidden' name='product_id' value='".$item->id."'>";
             echo "<button type='submit' id='submit'><i class='fa fa-cart-plus' style='color: #fcfcfc'></i>  Beli</button>";
             echo "</form>";
@@ -46,10 +45,9 @@
         echo "</div>";
 
     ?>
-    <h1>Produk Kami - XML</h1>
+    <h1>Produk Kelompok 2 menggunakan XML</h1>
     <?php
-    //$xmlurl = 'http://mahasiswa/nilai/getxml.php';
-    $xml_data = simplexml_load_file('http://uas/produkApi/produk.xml') or die("Error: Object Creation failure"); 
+    $xml_data = simplexml_load_file('https://kelompok2.doseninformatika.com/nilai/produk.xml') or die("Error: Object Creation failure"); 
     $count = 0;
 
     echo "<div class='container' id='produk'>";
@@ -58,27 +56,19 @@
         if($count % 5 == 0 && $count > 0) {
             echo "</div><div class='container'>";
         }
-        //display each sub element in xml file
-        // echo "ID : ", $data->id . "<br> ";
         echo "<div class='card'>";
-        echo "<img src='produkApi/".$data->gambar."' alt='barang' style='width:100%'>";
+        echo "<img src='https://kelompok2.doseninformatika.com/".$data->gambar."' alt='barang' style='width:100%'>";
         echo "<div class='card-content'>";
         echo "<h4>".$data->nama."</h4>";
         echo "<h5>Rp ".$data->harga."</h5>";
-        echo "<form method='POST' action='add_to_cart.php'>";
+        echo "<p>".$data->deskripsi."</p>";
+        echo "<form method='POST' action=''>";
         echo "<input type='hidden' name='product_id' value='".$data->id."'>";
         echo "<button type='submit' id='submit'><i class='fa fa-cart-plus' style='color: #fcfcfc'></i>  Beli</button>";
         echo "</form>";
         echo "</div>";
         echo "</div>";
         $count++;
-        // echo "Nama : ", $data->nama . "<br> ";
-        // echo "Brand : ", $data->brand . "<br> ";
-        // echo "Deskripsi : ", $data->deskripsi . "<br>";
-        // echo "Harga : ", $data->harga . "<br>";
-        // echo "Gambar : ", $data->gambar . "<br>";
-        // echo "------------------------------------";
-        // echo "<br>";
     }
     ?>
     

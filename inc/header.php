@@ -22,16 +22,7 @@
           <a href="index.php"><img src="images/logo.svg" class="nav-logo" alt="YAB!" width="60px"></a>
           <ul class="nav-main">
             <li class="nav-items home"><a href="index.php" id="home">Home</a></li>
-            <li class="nav-items dropdown">
-              <button type="button" class="dropbtn" onclick="dropdownFunction('myDropdown')">Kategori</button>
-              <div class="dropdown-content" id="myDropdown">
-                <a href="mouse.php">Mouse</a>
-                <a href="keyboard.php">Keyboard</a>
-                <a href="mousepad.php">Mousepad</a>
-                <a href="monitor.php">Monitor</a>
-                <a href="headset.php">Headset</a>
-              </div>
-            </li>
+            
             <li class="nav-items"><a href="addproduk.php">Tambah Produk</a></li>
             <!-- <li class="nav-items"><a href="displayData.php">Produk Kami</a></li> -->
             <li class="nav-items"><a href="produkApi/getxml.php">Dapatkan XML Produk</a></li>

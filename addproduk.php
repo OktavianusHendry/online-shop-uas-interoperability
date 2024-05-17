@@ -6,7 +6,7 @@ include('class/toko.php');
 
 <section class="add-product">
 <div class="container">
-    <form action="http://uas/produkApi/simpan.php" method="post" enctype='multipart/form-data'>
+    <form action="http://kelompok1.doseninformatika.com/produkApi/simpan.php" method="post" enctype='multipart/form-data'>
         <h1>Tambah Produk</h1>
         <div class="mb-3">
             <label for="nama" class="form-label">Nama Produk</label>
@@ -17,8 +17,8 @@ include('class/toko.php');
             <input type="text" class="form-control" id="brand" name="brand" required>
         </div>
         <div class="mb-3">
-            <label for="deskripsi" class="form-label">Deskripsi</label>
-            <input type="text" class="form-control" id="deskripsi" name="deskripsi" required>
+            <label for="seller" class="form-label">Seller</label>
+            <input type="text" class="form-control" id="seller" name="seller" required>
         </div>
         <div class="mb-3">
             <label for="harga" class="form-label">Harga</label>

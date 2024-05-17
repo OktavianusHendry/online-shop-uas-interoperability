@@ -7,7 +7,7 @@ switch($requestMethod) {
     case 'GET':
         $id = '';
         $nama = '';
-        $deskripsi = '';
+        $seller = '';
         $harga = '';
         if(isset($_GET['id'])) {
             $id = $_GET['id'];

@@ -1,0 +1,77 @@
+[17-May-2024 21:05:51 Asia/Jakarta] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dosa9773/public_html/kelompok1/index.php on line 29
+[17-May-2024 21:05:51 Asia/Jakarta] PHP Warning:  simplexml_load_file(http://localhost/uas/produkApi/produk.xml): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/dosa9773/public_html/kelompok1/index.php on line 52
+[17-May-2024 21:05:51 Asia/Jakarta] PHP Warning:  simplexml_load_file(): I/O warning : failed to load external entity &quot;http://localhost/uas/produkApi/produk.xml&quot; in /home/dosa9773/public_html/kelompok1/index.php on line 52
+[17-May-2024 21:05:52 Asia/Jakarta] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dosa9773/public_html/kelompok1/index.php on line 29
+[17-May-2024 21:05:52 Asia/Jakarta] PHP Warning:  simplexml_load_file(http://localhost/uas/produkApi/produk.xml): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/dosa9773/public_html/kelompok1/index.php on line 52
+[17-May-2024 21:05:52 Asia/Jakarta] PHP Warning:  simplexml_load_file(): I/O warning : failed to load external entity &quot;http://localhost/uas/produkApi/produk.xml&quot; in /home/dosa9773/public_html/kelompok1/index.php on line 52
+[17-May-2024 21:07:03 Asia/Jakarta] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dosa9773/public_html/kelompok1/index.php on line 29
+[17-May-2024 21:07:03 Asia/Jakarta] PHP Warning:  simplexml_load_file(http://localhost/uas/produkApi/produk.xml): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/dosa9773/public_html/kelompok1/index.php on line 52
+[17-May-2024 21:07:03 Asia/Jakarta] PHP Warning:  simplexml_load_file(): I/O warning : failed to load external entity &quot;http://localhost/uas/produkApi/produk.xml&quot; in /home/dosa9773/public_html/kelompok1/index.php on line 52
+[17-May-2024 21:07:18 Asia/Jakarta] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dosa9773/public_html/kelompok1/index.php on line 29
+[17-May-2024 21:07:18 Asia/Jakarta] PHP Warning:  simplexml_load_file(http://localhost/uas/produkApi/produk.xml): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/dosa9773/public_html/kelompok1/index.php on line 52
+[17-May-2024 21:07:18 Asia/Jakarta] PHP Warning:  simplexml_load_file(): I/O warning : failed to load external entity &quot;http://localhost/uas/produkApi/produk.xml&quot; in /home/dosa9773/public_html/kelompok1/index.php on line 52
+[17-May-2024 21:07:22 Asia/Jakarta] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dosa9773/public_html/kelompok1/index.php on line 29
+[17-May-2024 21:07:22 Asia/Jakarta] PHP Warning:  simplexml_load_file(http://localhost/uas/produkApi/produk.xml): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/dosa9773/public_html/kelompok1/index.php on line 52
+[17-May-2024 21:07:22 Asia/Jakarta] PHP Warning:  simplexml_load_file(): I/O warning : failed to load external entity &quot;http://localhost/uas/produkApi/produk.xml&quot; in /home/dosa9773/public_html/kelompok1/index.php on line 52
+[17-May-2024 21:07:25 Asia/Jakarta] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dosa9773/public_html/kelompok1/index.php on line 29
+[17-May-2024 21:07:25 Asia/Jakarta] PHP Warning:  simplexml_load_file(http://localhost/uas/produkApi/produk.xml): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/dosa9773/public_html/kelompok1/index.php on line 52
+[17-May-2024 21:07:25 Asia/Jakarta] PHP Warning:  simplexml_load_file(): I/O warning : failed to load external entity &quot;http://localhost/uas/produkApi/produk.xml&quot; in /home/dosa9773/public_html/kelompok1/index.php on line 52
+[17-May-2024 21:07:26 Asia/Jakarta] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dosa9773/public_html/kelompok1/index.php on line 29
+[17-May-2024 21:07:26 Asia/Jakarta] PHP Warning:  simplexml_load_file(http://localhost/uas/produkApi/produk.xml): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/dosa9773/public_html/kelompok1/index.php on line 52
+[17-May-2024 21:07:26 Asia/Jakarta] PHP Warning:  simplexml_load_file(): I/O warning : failed to load external entity &quot;http://localhost/uas/produkApi/produk.xml&quot; in /home/dosa9773/public_html/kelompok1/index.php on line 52
+[17-May-2024 21:07:27 Asia/Jakarta] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dosa9773/public_html/kelompok1/index.php on line 29
+[17-May-2024 21:07:27 Asia/Jakarta] PHP Warning:  simplexml_load_file(http://localhost/uas/produkApi/produk.xml): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/dosa9773/public_html/kelompok1/index.php on line 52
+[17-May-2024 21:07:27 Asia/Jakarta] PHP Warning:  simplexml_load_file(): I/O warning : failed to load external entity &quot;http://localhost/uas/produkApi/produk.xml&quot; in /home/dosa9773/public_html/kelompok1/index.php on line 52
+[17-May-2024 21:07:27 Asia/Jakarta] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dosa9773/public_html/kelompok1/index.php on line 29
+[17-May-2024 21:07:27 Asia/Jakarta] PHP Warning:  simplexml_load_file(http://localhost/uas/produkApi/produk.xml): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/dosa9773/public_html/kelompok1/index.php on line 52
+[17-May-2024 21:07:27 Asia/Jakarta] PHP Warning:  simplexml_load_file(): I/O warning : failed to load external entity &quot;http://localhost/uas/produkApi/produk.xml&quot; in /home/dosa9773/public_html/kelompok1/index.php on line 52
+[17-May-2024 21:07:34 Asia/Jakarta] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dosa9773/public_html/kelompok1/index.php on line 29
+[17-May-2024 21:07:34 Asia/Jakarta] PHP Warning:  simplexml_load_file(http://localhost/uas/produkApi/produk.xml): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/dosa9773/public_html/kelompok1/index.php on line 52
+[17-May-2024 21:07:34 Asia/Jakarta] PHP Warning:  simplexml_load_file(): I/O warning : failed to load external entity &quot;http://localhost/uas/produkApi/produk.xml&quot; in /home/dosa9773/public_html/kelompok1/index.php on line 52
+[17-May-2024 21:10:14 Asia/Jakarta] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dosa9773/public_html/kelompok1/index.php on line 29
+[17-May-2024 21:10:14 Asia/Jakarta] PHP Warning:  simplexml_load_file(http://localhost/uas/produkApi/produk.xml): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/dosa9773/public_html/kelompok1/index.php on line 52
+[17-May-2024 21:10:14 Asia/Jakarta] PHP Warning:  simplexml_load_file(): I/O warning : failed to load external entity &quot;http://localhost/uas/produkApi/produk.xml&quot; in /home/dosa9773/public_html/kelompok1/index.php on line 52
+[17-May-2024 21:10:17 Asia/Jakarta] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dosa9773/public_html/kelompok1/index.php on line 29
+[17-May-2024 21:10:17 Asia/Jakarta] PHP Warning:  simplexml_load_file(http://localhost/uas/produkApi/produk.xml): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/dosa9773/public_html/kelompok1/index.php on line 52
+[17-May-2024 21:10:17 Asia/Jakarta] PHP Warning:  simplexml_load_file(): I/O warning : failed to load external entity &quot;http://localhost/uas/produkApi/produk.xml&quot; in /home/dosa9773/public_html/kelompok1/index.php on line 52
+[17-May-2024 21:11:40 Asia/Jakarta] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dosa9773/public_html/kelompok1/index.php on line 29
+[17-May-2024 21:12:22 Asia/Jakarta] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dosa9773/public_html/kelompok1/index.php on line 29
+[17-May-2024 21:13:50 Asia/Jakarta] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dosa9773/public_html/kelompok1/index.php on line 29
+[17-May-2024 21:16:29 Asia/Jakarta] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dosa9773/public_html/kelompok1/index.php on line 29
+[17-May-2024 21:19:56 Asia/Jakarta] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dosa9773/public_html/kelompok1/index.php on line 29
+[17-May-2024 21:21:39 Asia/Jakarta] PHP Warning:  include(inc/header.php): Failed to open stream: Permission denied in /home/dosa9773/public_html/kelompok1/index.php on line 3
+[17-May-2024 21:21:39 Asia/Jakarta] PHP Warning:  include(): Failed opening 'inc/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/dosa9773/public_html/kelompok1/index.php on line 3
+[17-May-2024 21:21:39 Asia/Jakarta] PHP Warning:  include(class/toko.php): Failed to open stream: Permission denied in /home/dosa9773/public_html/kelompok1/index.php on line 5
+[17-May-2024 21:21:39 Asia/Jakarta] PHP Warning:  include(): Failed opening 'class/toko.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/dosa9773/public_html/kelompok1/index.php on line 5
+[17-May-2024 21:21:39 Asia/Jakarta] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dosa9773/public_html/kelompok1/index.php on line 29
+[17-May-2024 21:21:39 Asia/Jakarta] PHP Warning:  simplexml_load_file(https://kelompok1.doseninformatika.com/produkApi/produk.xml): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/dosa9773/public_html/kelompok1/index.php on line 52
+[17-May-2024 21:21:39 Asia/Jakarta] PHP Warning:  simplexml_load_file(): I/O warning : failed to load external entity &quot;https://kelompok1.doseninformatika.com/produkApi/produk.xml&quot; in /home/dosa9773/public_html/kelompok1/index.php on line 52
+[17-May-2024 21:21:52 Asia/Jakarta] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dosa9773/public_html/kelompok1/index.php on line 29
+[17-May-2024 21:23:23 Asia/Jakarta] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dosa9773/public_html/kelompok1/index.php on line 29
+[17-May-2024 21:23:40 Asia/Jakarta] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dosa9773/public_html/kelompok1/index.php on line 29
+[17-May-2024 21:25:54 Asia/Jakarta] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dosa9773/public_html/kelompok1/index.php on line 29
+[17-May-2024 21:27:33 Asia/Jakarta] PHP Warning:  foreach() argument must be of type array|object, null given in /home/dosa9773/public_html/kelompok1/index.php on line 29
+[17-May-2024 21:40:10 Asia/Jakarta] PHP Parse error:  syntax error, unexpected token "echo", expecting "," or ";" in /home/dosa9773/public_html/kelompok1/index.php on line 69
+[17-May-2024 21:40:13 Asia/Jakarta] PHP Parse error:  syntax error, unexpected token "echo", expecting "," or ";" in /home/dosa9773/public_html/kelompok1/index.php on line 69
+[17-May-2024 21:40:22 Asia/Jakarta] PHP Parse error:  syntax error, unexpected token "echo", expecting "," or ";" in /home/dosa9773/public_html/kelompok1/index.php on line 69
+[17-May-2024 21:40:23 Asia/Jakarta] PHP Parse error:  syntax error, unexpected token "echo", expecting "," or ";" in /home/dosa9773/public_html/kelompok1/index.php on line 69
+[17-May-2024 21:40:27 Asia/Jakarta] PHP Parse error:  syntax error, unexpected token "echo", expecting "," or ";" in /home/dosa9773/public_html/kelompok1/index.php on line 69
+[17-May-2024 21:40:56 Asia/Jakarta] PHP Parse error:  syntax error, unexpected token "echo", expecting "," or ";" in /home/dosa9773/public_html/kelompok1/index.php on line 69
+[17-May-2024 21:42:13 Asia/Jakarta] PHP Parse error:  syntax error, unexpected token "echo", expecting "," or ";" in /home/dosa9773/public_html/kelompok1/index.php on line 69
+[17-May-2024 21:42:15 Asia/Jakarta] PHP Parse error:  syntax error, unexpected token "echo", expecting "," or ";" in /home/dosa9773/public_html/kelompok1/index.php on line 69
+[17-May-2024 21:42:21 Asia/Jakarta] PHP Parse error:  syntax error, unexpected token "echo", expecting "," or ";" in /home/dosa9773/public_html/kelompok1/index.php on line 69
+[17-May-2024 21:42:24 Asia/Jakarta] PHP Parse error:  syntax error, unexpected token "echo", expecting "," or ";" in /home/dosa9773/public_html/kelompok1/index.php on line 69
+[17-May-2024 21:42:30 Asia/Jakarta] PHP Parse error:  syntax error, unexpected token "echo", expecting "," or ";" in /home/dosa9773/public_html/kelompok1/index.php on line 69

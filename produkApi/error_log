@@ -1,0 +1,208 @@
+[17-May-2024 21:07:05 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dosa9773/public_html/kelompok1/class/toko.php:13
+Stack trace:
+#0 /home/dosa9773/public_html/kelompok1/class/toko.php(13): mysqli->__construct('localhost', 'root', '', 'onlineshop')
+#1 /home/dosa9773/public_html/kelompok1/produkApi/getxml.php(5): Toko->__construct()
+#2 {main}
+  thrown in /home/dosa9773/public_html/kelompok1/class/toko.php on line 13
+[17-May-2024 21:09:34 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dosa9773/public_html/kelompok1/class/toko.php:13
+Stack trace:
+#0 /home/dosa9773/public_html/kelompok1/class/toko.php(13): mysqli->__construct('localhost', 'root', '', 'dosa9773_kelomp...')
+#1 /home/dosa9773/public_html/kelompok1/produkApi/getdata.php(5): Toko->__construct()
+#2 {main}
+  thrown in /home/dosa9773/public_html/kelompok1/class/toko.php on line 13
+[17-May-2024 21:10:14 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dosa9773/public_html/kelompok1/class/toko.php:13
+Stack trace:
+#0 /home/dosa9773/public_html/kelompok1/class/toko.php(13): mysqli->__construct('localhost', 'root', '', 'dosa9773_kelomp...')
+#1 /home/dosa9773/public_html/kelompok1/produkApi/getdata.php(5): Toko->__construct()
+#2 {main}
+  thrown in /home/dosa9773/public_html/kelompok1/class/toko.php on line 13
+[17-May-2024 21:10:17 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dosa9773/public_html/kelompok1/class/toko.php:13
+Stack trace:
+#0 /home/dosa9773/public_html/kelompok1/class/toko.php(13): mysqli->__construct('localhost', 'root', '', 'dosa9773_kelomp...')
+#1 /home/dosa9773/public_html/kelompok1/produkApi/getdata.php(5): Toko->__construct()
+#2 {main}
+  thrown in /home/dosa9773/public_html/kelompok1/class/toko.php on line 13
+[17-May-2024 21:10:56 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dosa9773/public_html/kelompok1/class/toko.php:13
+Stack trace:
+#0 /home/dosa9773/public_html/kelompok1/class/toko.php(13): mysqli->__construct('localhost', 'root', '', 'dosa9773_kelomp...')
+#1 /home/dosa9773/public_html/kelompok1/produkApi/getdata.php(5): Toko->__construct()
+#2 {main}
+  thrown in /home/dosa9773/public_html/kelompok1/class/toko.php on line 13
+[17-May-2024 21:11:02 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dosa9773/public_html/kelompok1/class/toko.php:13
+Stack trace:
+#0 /home/dosa9773/public_html/kelompok1/class/toko.php(13): mysqli->__construct('localhost', 'root', '', 'dosa9773_kelomp...')
+#1 /home/dosa9773/public_html/kelompok1/produkApi/getxml.php(5): Toko->__construct()
+#2 {main}
+  thrown in /home/dosa9773/public_html/kelompok1/class/toko.php on line 13
+[17-May-2024 21:11:40 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dosa9773/public_html/kelompok1/class/toko.php:13
+Stack trace:
+#0 /home/dosa9773/public_html/kelompok1/class/toko.php(13): mysqli->__construct('localhost', 'root', '', 'dosa9773_kelomp...')
+#1 /home/dosa9773/public_html/kelompok1/produkApi/getdata.php(5): Toko->__construct()
+#2 {main}
+  thrown in /home/dosa9773/public_html/kelompok1/class/toko.php on line 13
+[17-May-2024 21:12:22 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dosa9773/public_html/kelompok1/class/toko.php:13
+Stack trace:
+#0 /home/dosa9773/public_html/kelompok1/class/toko.php(13): mysqli->__construct('localhost', 'root', '', 'dosa9773_kelomp...')
+#1 /home/dosa9773/public_html/kelompok1/produkApi/getdata.php(5): Toko->__construct()
+#2 {main}
+  thrown in /home/dosa9773/public_html/kelompok1/class/toko.php on line 13
+[17-May-2024 21:13:40 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dosa9773/public_html/kelompok1/class/toko.php:13
+Stack trace:
+#0 /home/dosa9773/public_html/kelompok1/class/toko.php(13): mysqli->__construct('localhost', 'root', '', 'dosa9773_kelomp...')
+#1 /home/dosa9773/public_html/kelompok1/produkApi/getxml.php(5): Toko->__construct()
+#2 {main}
+  thrown in /home/dosa9773/public_html/kelompok1/class/toko.php on line 13
+[17-May-2024 21:13:48 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dosa9773/public_html/kelompok1/class/toko.php:13
+Stack trace:
+#0 /home/dosa9773/public_html/kelompok1/class/toko.php(13): mysqli->__construct('localhost', 'root', '', 'dosa9773_kelomp...')
+#1 /home/dosa9773/public_html/kelompok1/produkApi/getxml.php(5): Toko->__construct()
+#2 {main}
+  thrown in /home/dosa9773/public_html/kelompok1/class/toko.php on line 13
+[17-May-2024 21:13:50 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dosa9773/public_html/kelompok1/class/toko.php:13
+Stack trace:
+#0 /home/dosa9773/public_html/kelompok1/class/toko.php(13): mysqli->__construct('localhost', 'root', '', 'dosa9773_kelomp...')
+#1 /home/dosa9773/public_html/kelompok1/produkApi/getdata.php(5): Toko->__construct()
+#2 {main}
+  thrown in /home/dosa9773/public_html/kelompok1/class/toko.php on line 13
+[17-May-2024 21:13:53 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dosa9773/public_html/kelompok1/class/toko.php:13
+Stack trace:
+#0 /home/dosa9773/public_html/kelompok1/class/toko.php(13): mysqli->__construct('localhost', 'root', '', 'dosa9773_kelomp...')
+#1 /home/dosa9773/public_html/kelompok1/produkApi/getxml.php(5): Toko->__construct()
+#2 {main}
+  thrown in /home/dosa9773/public_html/kelompok1/class/toko.php on line 13
+[17-May-2024 21:14:00 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dosa9773/public_html/kelompok1/class/toko.php:13
+Stack trace:
+#0 /home/dosa9773/public_html/kelompok1/class/toko.php(13): mysqli->__construct('localhost', 'root', '', 'dosa9773_kelomp...')
+#1 /home/dosa9773/public_html/kelompok1/produkApi/getxml.php(5): Toko->__construct()
+#2 {main}
+  thrown in /home/dosa9773/public_html/kelompok1/class/toko.php on line 13
+[17-May-2024 21:16:10 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dosa9773/public_html/kelompok1/class/toko.php:13
+Stack trace:
+#0 /home/dosa9773/public_html/kelompok1/class/toko.php(13): mysqli->__construct('localhost', 'root', '', 'dosa9773_kelomp...')
+#1 /home/dosa9773/public_html/kelompok1/produkApi/getxml.php(5): Toko->__construct()
+#2 {main}
+  thrown in /home/dosa9773/public_html/kelompok1/class/toko.php on line 13
+[17-May-2024 21:16:15 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dosa9773/public_html/kelompok1/class/toko.php:13
+Stack trace:
+#0 /home/dosa9773/public_html/kelompok1/class/toko.php(13): mysqli->__construct('localhost', 'root', '', 'dosa9773_kelomp...')
+#1 /home/dosa9773/public_html/kelompok1/produkApi/getxml.php(5): Toko->__construct()
+#2 {main}
+  thrown in /home/dosa9773/public_html/kelompok1/class/toko.php on line 13
+[17-May-2024 21:16:25 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dosa9773/public_html/kelompok1/class/toko.php:13
+Stack trace:
+#0 /home/dosa9773/public_html/kelompok1/class/toko.php(13): mysqli->__construct('localhost', 'root', '', 'dosa9773_kelomp...')
+#1 /home/dosa9773/public_html/kelompok1/produkApi/getxml.php(5): Toko->__construct()
+#2 {main}
+  thrown in /home/dosa9773/public_html/kelompok1/class/toko.php on line 13
+[17-May-2024 21:16:29 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dosa9773/public_html/kelompok1/class/toko.php:13
+Stack trace:
+#0 /home/dosa9773/public_html/kelompok1/class/toko.php(13): mysqli->__construct('localhost', 'root', '', 'dosa9773_kelomp...')
+#1 /home/dosa9773/public_html/kelompok1/produkApi/getdata.php(5): Toko->__construct()
+#2 {main}
+  thrown in /home/dosa9773/public_html/kelompok1/class/toko.php on line 13
+[17-May-2024 21:16:32 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dosa9773/public_html/kelompok1/class/toko.php:13
+Stack trace:
+#0 /home/dosa9773/public_html/kelompok1/class/toko.php(13): mysqli->__construct('localhost', 'root', '', 'dosa9773_kelomp...')
+#1 /home/dosa9773/public_html/kelompok1/produkApi/getxml.php(5): Toko->__construct()
+#2 {main}
+  thrown in /home/dosa9773/public_html/kelompok1/class/toko.php on line 13
+[17-May-2024 21:19:56 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dosa9773/public_html/kelompok1/class/toko.php:13
+Stack trace:
+#0 /home/dosa9773/public_html/kelompok1/class/toko.php(13): mysqli->__construct('localhost', 'root', '', 'dosa9773_kelomp...')
+#1 /home/dosa9773/public_html/kelompok1/produkApi/getdata.php(5): Toko->__construct()
+#2 {main}
+  thrown in /home/dosa9773/public_html/kelompok1/class/toko.php on line 13
+[17-May-2024 21:19:58 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dosa9773/public_html/kelompok1/class/toko.php:13
+Stack trace:
+#0 /home/dosa9773/public_html/kelompok1/class/toko.php(13): mysqli->__construct('localhost', 'root', '', 'dosa9773_kelomp...')
+#1 /home/dosa9773/public_html/kelompok1/produkApi/getxml.php(5): Toko->__construct()
+#2 {main}
+  thrown in /home/dosa9773/public_html/kelompok1/class/toko.php on line 13
+[17-May-2024 21:21:52 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dosa9773/public_html/kelompok1/class/toko.php:13
+Stack trace:
+#0 /home/dosa9773/public_html/kelompok1/class/toko.php(13): mysqli->__construct('localhost', 'root', '', 'dosa9773_kelomp...')
+#1 /home/dosa9773/public_html/kelompok1/produkApi/getdata.php(5): Toko->__construct()
+#2 {main}
+  thrown in /home/dosa9773/public_html/kelompok1/class/toko.php on line 13
+[17-May-2024 21:22:49 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dosa9773/public_html/kelompok1/class/toko.php:13
+Stack trace:
+#0 /home/dosa9773/public_html/kelompok1/class/toko.php(13): mysqli->__construct('localhost', 'root', '', 'dosa9773_kelomp...')
+#1 /home/dosa9773/public_html/kelompok1/produkApi/getxml.php(5): Toko->__construct()
+#2 {main}
+  thrown in /home/dosa9773/public_html/kelompok1/class/toko.php on line 13
+[17-May-2024 21:23:23 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dosa9773/public_html/kelompok1/class/toko.php:13
+Stack trace:
+#0 /home/dosa9773/public_html/kelompok1/class/toko.php(13): mysqli->__construct('localhost', 'root', '', 'dosa9773_kelomp...')
+#1 /home/dosa9773/public_html/kelompok1/produkApi/getdata.php(5): Toko->__construct()
+#2 {main}
+  thrown in /home/dosa9773/public_html/kelompok1/class/toko.php on line 13
+[17-May-2024 21:23:25 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dosa9773/public_html/kelompok1/class/toko.php:13
+Stack trace:
+#0 /home/dosa9773/public_html/kelompok1/class/toko.php(13): mysqli->__construct('localhost', 'root', '', 'dosa9773_kelomp...')
+#1 /home/dosa9773/public_html/kelompok1/produkApi/getxml.php(5): Toko->__construct()
+#2 {main}
+  thrown in /home/dosa9773/public_html/kelompok1/class/toko.php on line 13
+[17-May-2024 21:23:40 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dosa9773/public_html/kelompok1/class/toko.php:13
+Stack trace:
+#0 /home/dosa9773/public_html/kelompok1/class/toko.php(13): mysqli->__construct('localhost', 'root', '', 'dosa9773_kelomp...')
+#1 /home/dosa9773/public_html/kelompok1/produkApi/getdata.php(5): Toko->__construct()
+#2 {main}
+  thrown in /home/dosa9773/public_html/kelompok1/class/toko.php on line 13
+[17-May-2024 21:23:43 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dosa9773/public_html/kelompok1/class/toko.php:13
+Stack trace:
+#0 /home/dosa9773/public_html/kelompok1/class/toko.php(13): mysqli->__construct('localhost', 'root', '', 'dosa9773_kelomp...')
+#1 /home/dosa9773/public_html/kelompok1/produkApi/getxml.php(5): Toko->__construct()
+#2 {main}
+  thrown in /home/dosa9773/public_html/kelompok1/class/toko.php on line 13
+[17-May-2024 21:25:54 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dosa9773'@'localhost' (using password: NO) in /home/dosa9773/public_html/kelompok1/class/toko.php:13
+Stack trace:
+#0 /home/dosa9773/public_html/kelompok1/class/toko.php(13): mysqli->__construct('localhost', 'dosa9773', '', 'dosa9773_kelomp...')
+#1 /home/dosa9773/public_html/kelompok1/produkApi/getdata.php(5): Toko->__construct()
+#2 {main}
+  thrown in /home/dosa9773/public_html/kelompok1/class/toko.php on line 13
+[17-May-2024 21:25:55 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dosa9773'@'localhost' (using password: NO) in /home/dosa9773/public_html/kelompok1/class/toko.php:13
+Stack trace:
+#0 /home/dosa9773/public_html/kelompok1/class/toko.php(13): mysqli->__construct('localhost', 'dosa9773', '', 'dosa9773_kelomp...')
+#1 /home/dosa9773/public_html/kelompok1/produkApi/getxml.php(5): Toko->__construct()
+#2 {main}
+  thrown in /home/dosa9773/public_html/kelompok1/class/toko.php on line 13
+[17-May-2024 21:26:10 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dosa9773'@'localhost' (using password: NO) in /home/dosa9773/public_html/kelompok1/class/toko.php:13
+Stack trace:
+#0 /home/dosa9773/public_html/kelompok1/class/toko.php(13): mysqli->__construct('localhost', 'dosa9773', '', 'dosa9773_kelomp...')
+#1 /home/dosa9773/public_html/kelompok1/produkApi/getxml.php(5): Toko->__construct()
+#2 {main}
+  thrown in /home/dosa9773/public_html/kelompok1/class/toko.php on line 13
+[17-May-2024 21:27:33 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dosa9773'@'localhost' (using password: NO) in /home/dosa9773/public_html/kelompok1/class/toko.php:13
+Stack trace:
+#0 /home/dosa9773/public_html/kelompok1/class/toko.php(13): mysqli->__construct('localhost', 'dosa9773', '', 'dosa9773_kelomp...')
+#1 /home/dosa9773/public_html/kelompok1/produkApi/getdata.php(5): Toko->__construct()
+#2 {main}
+  thrown in /home/dosa9773/public_html/kelompok1/class/toko.php on line 13
+[17-May-2024 22:04:57 Asia/Jakarta] PHP Warning:  Undefined array key "deskripsi" in /home/dosa9773/public_html/kelompok1/class/toko.php on line 73
+[17-May-2024 22:04:57 Asia/Jakarta] PHP Deprecated:  DOMDocument::createElement(): Passing null to parameter #2 ($value) of type string is deprecated in /home/dosa9773/public_html/kelompok1/class/toko.php on line 83
+[17-May-2024 22:04:57 Asia/Jakarta] PHP Warning:  Undefined array key "deskripsi" in /home/dosa9773/public_html/kelompok1/class/toko.php on line 73
+[17-May-2024 22:04:57 Asia/Jakarta] PHP Deprecated:  DOMDocument::createElement(): Passing null to parameter #2 ($value) of type string is deprecated in /home/dosa9773/public_html/kelompok1/class/toko.php on line 83
+[17-May-2024 22:04:57 Asia/Jakarta] PHP Warning:  Undefined array key "deskripsi" in /home/dosa9773/public_html/kelompok1/class/toko.php on line 73
+[17-May-2024 22:04:57 Asia/Jakarta] PHP Deprecated:  DOMDocument::createElement(): Passing null to parameter #2 ($value) of type string is deprecated in /home/dosa9773/public_html/kelompok1/class/toko.php on line 83
+[17-May-2024 22:04:57 Asia/Jakarta] PHP Warning:  Undefined array key "deskripsi" in /home/dosa9773/public_html/kelompok1/class/toko.php on line 73
+[17-May-2024 22:04:57 Asia/Jakarta] PHP Deprecated:  DOMDocument::createElement(): Passing null to parameter #2 ($value) of type string is deprecated in /home/dosa9773/public_html/kelompok1/class/toko.php on line 83
+[17-May-2024 22:04:57 Asia/Jakarta] PHP Warning:  Undefined array key "deskripsi" in /home/dosa9773/public_html/kelompok1/class/toko.php on line 73
+[17-May-2024 22:04:57 Asia/Jakarta] PHP Deprecated:  DOMDocument::createElement(): Passing null to parameter #2 ($value) of type string is deprecated in /home/dosa9773/public_html/kelompok1/class/toko.php on line 83
+[17-May-2024 22:06:03 Asia/Jakarta] PHP Warning:  Undefined array key "deskripsi" in /home/dosa9773/public_html/kelompok1/class/toko.php on line 73
+[17-May-2024 22:06:03 Asia/Jakarta] PHP Deprecated:  DOMDocument::createElement(): Passing null to parameter #2 ($value) of type string is deprecated in /home/dosa9773/public_html/kelompok1/class/toko.php on line 83
+[17-May-2024 22:06:03 Asia/Jakarta] PHP Warning:  Undefined array key "deskripsi" in /home/dosa9773/public_html/kelompok1/class/toko.php on line 73
+[17-May-2024 22:06:03 Asia/Jakarta] PHP Deprecated:  DOMDocument::createElement(): Passing null to parameter #2 ($value) of type string is deprecated in /home/dosa9773/public_html/kelompok1/class/toko.php on line 83
+[17-May-2024 22:06:03 Asia/Jakarta] PHP Warning:  Undefined array key "deskripsi" in /home/dosa9773/public_html/kelompok1/class/toko.php on line 73
+[17-May-2024 22:06:03 Asia/Jakarta] PHP Deprecated:  DOMDocument::createElement(): Passing null to parameter #2 ($value) of type string is deprecated in /home/dosa9773/public_html/kelompok1/class/toko.php on line 83
+[17-May-2024 22:06:03 Asia/Jakarta] PHP Warning:  Undefined array key "deskripsi" in /home/dosa9773/public_html/kelompok1/class/toko.php on line 73
+[17-May-2024 22:06:03 Asia/Jakarta] PHP Deprecated:  DOMDocument::createElement(): Passing null to parameter #2 ($value) of type string is deprecated in /home/dosa9773/public_html/kelompok1/class/toko.php on line 83
+[17-May-2024 22:06:03 Asia/Jakarta] PHP Warning:  Undefined array key "deskripsi" in /home/dosa9773/public_html/kelompok1/class/toko.php on line 73
+[17-May-2024 22:06:03 Asia/Jakarta] PHP Deprecated:  DOMDocument::createElement(): Passing null to parameter #2 ($value) of type string is deprecated in /home/dosa9773/public_html/kelompok1/class/toko.php on line 83
+[17-May-2024 22:09:39 Asia/Jakarta] PHP Warning:  Undefined variable $produkArray in /home/dosa9773/public_html/kelompok1/class/toko.php on line 69
+[17-May-2024 22:09:39 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home/dosa9773/public_html/kelompok1/class/toko.php:69
+Stack trace:
+#0 /home/dosa9773/public_html/kelompok1/class/toko.php(112): Toko->createXMLfile(Array)
+#1 /home/dosa9773/public_html/kelompok1/produkApi/getxml.php(6): Toko->getXml()
+#2 {main}
+  thrown in /home/dosa9773/public_html/kelompok1/class/toko.php on line 69
+[17-May-2024 22:31:09 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dosa9773/public_html/kelompok1/class/toko.php:63) in /home/dosa9773/public_html/kelompok1/produkApi/simpan.php on line 16
