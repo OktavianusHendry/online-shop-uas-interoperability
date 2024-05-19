@@ -206,3 +206,18 @@ Stack trace:
 #2 {main}
   thrown in /home/dosa9773/public_html/kelompok1/class/toko.php on line 69
 [17-May-2024 22:31:09 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dosa9773/public_html/kelompok1/class/toko.php:63) in /home/dosa9773/public_html/kelompok1/produkApi/simpan.php on line 16
+[18-May-2024 03:28:46 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: DOMNode::appendChild(): Argument #1 ($node) must be of type DOMNode, string given in /home/dosa9773/public_html/kelompok1/class/toko.php:87
+Stack trace:
+#0 /home/dosa9773/public_html/kelompok1/class/toko.php(87): DOMNode->appendChild('Air Softgun yan...')
+#1 /home/dosa9773/public_html/kelompok1/class/toko.php(114): Toko->createXMLfile(Array)
+#2 /home/dosa9773/public_html/kelompok1/produkApi/getxml.php(6): Toko->getXml()
+#3 {main}
+  thrown in /home/dosa9773/public_html/kelompok1/class/toko.php on line 87
+[18-May-2024 03:30:36 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: DOMNode::appendChild(): Argument #1 ($node) must be of type DOMNode, string given in /home/dosa9773/public_html/kelompok1/class/toko.php:87
+Stack trace:
+#0 /home/dosa9773/public_html/kelompok1/class/toko.php(87): DOMNode->appendChild('Air Softgun yan...')
+#1 /home/dosa9773/public_html/kelompok1/class/toko.php(114): Toko->createXMLfile(Array)
+#2 /home/dosa9773/public_html/kelompok1/produkApi/getxml.php(6): Toko->getXml()
+#3 {main}
+  thrown in /home/dosa9773/public_html/kelompok1/class/toko.php on line 87
+[18-May-2024 03:37:08 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dosa9773/public_html/kelompok1/class/toko.php:63) in /home/dosa9773/public_html/kelompok1/produkApi/simpan.php on line 14

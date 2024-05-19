@@ -40,9 +40,9 @@ window.onclick = function(e) {
       <br>
       <h4>Anggota Kelompok:</h4>
     <ul>
-        <li>Oktavianus Hendry Wijaya</li>
-        <li>Paris Matio</li>
-        <li>Yogi Valentino Nadeak</li>
+        <li>Oktavianus Hendry Wijaya - 2110101011</li>
+        <li>Paris Matio - 2110101013</li>
+        <li>Yogi Valentino Nadeak - 2110101033</li>
     </ul>
     </div>
     <div class="footer-content">

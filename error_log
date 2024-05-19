@@ -75,3 +75,37 @@
 [17-May-2024 21:42:21 Asia/Jakarta] PHP Parse error:  syntax error, unexpected token "echo", expecting "," or ";" in /home/dosa9773/public_html/kelompok1/index.php on line 69
 [17-May-2024 21:42:24 Asia/Jakarta] PHP Parse error:  syntax error, unexpected token "echo", expecting "," or ";" in /home/dosa9773/public_html/kelompok1/index.php on line 69
 [17-May-2024 21:42:30 Asia/Jakarta] PHP Parse error:  syntax error, unexpected token "echo", expecting "," or ";" in /home/dosa9773/public_html/kelompok1/index.php on line 69
+[18-May-2024 03:17:12 Asia/Jakarta] PHP Warning:  Undefined property: stdClass::$description in /home/dosa9773/public_html/kelompok1/index.php on line 40
+[18-May-2024 03:17:12 Asia/Jakarta] PHP Warning:  Undefined property: stdClass::$description in /home/dosa9773/public_html/kelompok1/index.php on line 40
+[18-May-2024 03:17:12 Asia/Jakarta] PHP Warning:  Undefined property: stdClass::$description in /home/dosa9773/public_html/kelompok1/index.php on line 40
+[18-May-2024 03:17:12 Asia/Jakarta] PHP Warning:  Undefined property: stdClass::$description in /home/dosa9773/public_html/kelompok1/index.php on line 40
+[18-May-2024 03:17:12 Asia/Jakarta] PHP Warning:  Undefined property: stdClass::$description in /home/dosa9773/public_html/kelompok1/index.php on line 40
+[18-May-2024 03:17:12 Asia/Jakarta] PHP Warning:  Undefined property: stdClass::$description in /home/dosa9773/public_html/kelompok1/index.php on line 40
+[18-May-2024 03:28:10 Asia/Jakarta] PHP Warning:  Undefined property: stdClass::$description in /home/dosa9773/public_html/kelompok1/index.php on line 40
+[18-May-2024 03:28:10 Asia/Jakarta] PHP Warning:  Undefined property: stdClass::$description in /home/dosa9773/public_html/kelompok1/index.php on line 40
+[18-May-2024 03:28:10 Asia/Jakarta] PHP Warning:  Undefined property: stdClass::$description in /home/dosa9773/public_html/kelompok1/index.php on line 40
+[18-May-2024 03:28:10 Asia/Jakarta] PHP Warning:  Undefined property: stdClass::$description in /home/dosa9773/public_html/kelompok1/index.php on line 40
+[18-May-2024 03:28:10 Asia/Jakarta] PHP Warning:  Undefined property: stdClass::$description in /home/dosa9773/public_html/kelompok1/index.php on line 40
+[18-May-2024 03:28:10 Asia/Jakarta] PHP Warning:  Undefined property: stdClass::$description in /home/dosa9773/public_html/kelompok1/index.php on line 40
+[18-May-2024 03:28:16 Asia/Jakarta] PHP Warning:  Undefined property: stdClass::$description in /home/dosa9773/public_html/kelompok1/index.php on line 40
+[18-May-2024 03:28:16 Asia/Jakarta] PHP Warning:  Undefined property: stdClass::$description in /home/dosa9773/public_html/kelompok1/index.php on line 40
+[18-May-2024 03:28:16 Asia/Jakarta] PHP Warning:  Undefined property: stdClass::$description in /home/dosa9773/public_html/kelompok1/index.php on line 40
+[18-May-2024 03:28:16 Asia/Jakarta] PHP Warning:  Undefined property: stdClass::$description in /home/dosa9773/public_html/kelompok1/index.php on line 40
+[18-May-2024 03:28:16 Asia/Jakarta] PHP Warning:  Undefined property: stdClass::$description in /home/dosa9773/public_html/kelompok1/index.php on line 40
+[18-May-2024 03:28:16 Asia/Jakarta] PHP Warning:  Undefined property: stdClass::$description in /home/dosa9773/public_html/kelompok1/index.php on line 40
+[18-May-2024 03:28:18 Asia/Jakarta] PHP Warning:  Undefined property: stdClass::$description in /home/dosa9773/public_html/kelompok1/index.php on line 40
+[18-May-2024 03:28:18 Asia/Jakarta] PHP Warning:  Undefined property: stdClass::$description in /home/dosa9773/public_html/kelompok1/index.php on line 40
+[18-May-2024 03:28:18 Asia/Jakarta] PHP Warning:  Undefined property: stdClass::$description in /home/dosa9773/public_html/kelompok1/index.php on line 40
+[18-May-2024 03:28:18 Asia/Jakarta] PHP Warning:  Undefined property: stdClass::$description in /home/dosa9773/public_html/kelompok1/index.php on line 40
+[18-May-2024 03:28:18 Asia/Jakarta] PHP Warning:  Undefined property: stdClass::$description in /home/dosa9773/public_html/kelompok1/index.php on line 40
+[18-May-2024 03:28:18 Asia/Jakarta] PHP Warning:  Undefined property: stdClass::$description in /home/dosa9773/public_html/kelompok1/index.php on line 40
+[18-May-2024 03:43:41 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: number_format(): Argument #1 ($num) must be of type float, SimpleXMLElement given in /home/dosa9773/public_html/kelompok1/index.php:64
+Stack trace:
+#0 /home/dosa9773/public_html/kelompok1/index.php(64): number_format(Object(SimpleXMLElement), 0, ',', '.')
+#1 {main}
+  thrown in /home/dosa9773/public_html/kelompok1/index.php on line 64
+[18-May-2024 03:45:25 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: number_format(): Argument #1 ($num) must be of type float, SimpleXMLElement given in /home/dosa9773/public_html/kelompok1/index.php:64
+Stack trace:
+#0 /home/dosa9773/public_html/kelompok1/index.php(64): number_format(Object(SimpleXMLElement), 0, ',', '.')
+#1 {main}
+  thrown in /home/dosa9773/public_html/kelompok1/index.php on line 64

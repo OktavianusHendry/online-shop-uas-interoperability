@@ -42,10 +42,11 @@ class Toko{
         $harga = $produk['harga'];
         $brand = $produk['brand'];
         $seller = $produk['seller'];
+        $deskripsi = $produk['deskripsi'];
         $gambar = $produk['gambar']; 
         $sqlQuery = "
             INSERT INTO ".$this->tblProduk." 
-            SET nama='".$nama."', brand='".$brand."', seller='".$seller."', harga='".$harga."', gambar='".$gambar."'"; 
+            SET nama='".$nama."', brand='".$brand."', seller='".$seller."', harga='".$harga."', deskripsi='".$deskripsi."', gambar='".$gambar."'"; 
     
         if(mysqli_query($this->dbConnect, $sqlQuery)){
             $pesan = "Produk berhasil ditambahkan.";
@@ -71,6 +72,7 @@ class Toko{
             $brand    =  $produkArray[$i]['brand'];
             $seller    =  $produkArray[$i]['seller'];
             $harga = $produkArray[$i]['harga'];
+            $deskripsi = $produkArray[$i]['deskripsi'];
             $gambar = $produkArray[$i]['gambar']; 
             $produk = $dom->createElement('produk');
             $produk->setAttribute('id', $id);
@@ -83,6 +85,8 @@ class Toko{
             $produk->appendChild($seller);
             $harga = $dom->createElement('harga', $harga);
             $produk->appendChild($harga);
+            $deskripsi = $dom->createElement('deskripsi', $deskripsi);
+            $produk->appendChild($deskripsi);
             $gambar = $dom->createElement('gambar', $gambar);
             $produk->appendChild($gambar);
 
@@ -101,13 +105,13 @@ class Toko{
         if(!$result){
             die('Error in query: '. mysqli_error());
         }
-        $nialiArray = array();
+        $nilaiArray = array();
 
         while( $result_array  = mysqli_fetch_assoc($result) ) {
-             array_push($nialiArray, $result_array);
+             array_push($nilaiArray, $result_array);
         }
-            if(count($nialiArray)){
-                $this->createXMLfile($nialiArray);
+            if(count($nilaiArray)){
+                $this->createXMLfile($nilaiArray);
             }
         /* free result set */
         $result->free();

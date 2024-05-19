@@ -32,11 +32,12 @@
             echo "<img src='produkApi/".$item->gambar."' alt='barang' style='width:100%'>";
             echo "<div class='card-content'>";
             echo "<h4>".$item->brand." - ".$item->nama."</h4>";
-            echo "<h5>Rp ".$item->harga."</h5>";
+            echo "<h5>Rp ".number_format($item->harga, 0, ',', '.')."</h5>";
             echo "<h5>Seller: ".$item->seller."</h5>";
             echo "<form method='POST' action=''>";
             echo "<input type='hidden' name='product_id' value='".$item->id."'>";
             echo "<button type='submit' id='submit'><i class='fa fa-cart-plus' style='color: #fcfcfc'></i>  Beli</button>";
+            echo "<button type='button' onclick='alert(\"".$item->deskripsi."\")'>Detail Produk</button>";
             echo "</form>";
             echo "</div>";
             echo "</div>";
@@ -45,6 +46,8 @@
         echo "</div>";
 
     ?>
+
+
     <h1>Produk Kelompok 2 menggunakan XML</h1>
     <?php
     $xml_data = simplexml_load_file('https://kelompok2.doseninformatika.com/nilai/produk.xml') or die("Error: Object Creation failure"); 
@@ -60,7 +63,7 @@
         echo "<img src='https://kelompok2.doseninformatika.com/".$data->gambar."' alt='barang' style='width:100%'>";
         echo "<div class='card-content'>";
         echo "<h4>".$data->nama."</h4>";
-        echo "<h5>Rp ".$data->harga."</h5>";
+        echo "<h5>Rp ".number_format((int)$data->harga, 0, ',', '.')."</h5>";
         echo "<p>".$data->deskripsi."</p>";
         echo "<form method='POST' action=''>";
         echo "<input type='hidden' name='product_id' value='".$data->id."'>";
@@ -70,10 +73,26 @@
         echo "</div>";
         $count++;
     }
+    echo "</div>";
     ?>
-    
-</section>
+    <h1>XML Kelompok 2</h1>
+    <?php
+        $xml_url = 'https://kelompok2.doseninformatika.com/nilai/produk.xml';
+        $dom = new DOMDocument;
+        $dom->preserveWhiteSpace = false;
+        $dom->load($xml_url);
+        $dom->formatOutput = true;
+        $xml_content = $dom->saveXML();
+        echo "<pre><code>";
+        echo htmlspecialchars($xml_content);
+        echo "</code></pre>";
+    ?>
 
+
+    
+
+
+</section>
 
 <?php include('inc/footer.php'); ?>
 <script type="text/javascript">
